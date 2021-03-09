@@ -12,7 +12,7 @@ class Division {
     display() {
         var pos = this.body.position;
         rectMode(CENTER);
-        fill(130,202,250);
+        fill("lime");
         rect(pos.x, pos.y, this.w, this.h);
     }
 };
